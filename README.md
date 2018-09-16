@@ -1,5 +1,5 @@
 # ⛩ Tower of Hanoi JavaScript 🏯
-⛩ **Tower of Hanoi**, a mathematical game. I realized it with **draggable** HTML Elements and Buttons 🏯
+⛩ **Tower of Hanoi**, a mathematical game. Realized with **draggable** HTML Elements and Buttons 🏯
 
 The **Disks** are **draggable**, they can either be moved per **Drag & Drop** or with the **Buttons**.
 
