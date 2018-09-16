@@ -1,0 +1,37 @@
+<!DOCTYPE HTML SYSTEM>
+
+<html>
+	<head>
+		<title> Jquery , Javascript </title>
+		<link rel='stylesheet' type='text/css' href='css.css'>
+		<script type="text/javascript" src="JS/Jquery.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="JS/Javascript.js"></script>	
+		<script type="text/javascript">
+		$(function(){
+			$('#oberdiv').load('ajax.html',function(){
+				buildStacks();
+			});
+		})
+		</script>
+	</head>
+	<body>
+		<div id="hauptdiv">
+			<div id="oberdiv">
+
+			</div>
+			<div id="unterdiv">
+				<div id="oberbuttons">
+					<input id="rechts1" onclick="brechts1()" type="button" value=">"/>
+					<input id="links2" onclick="blinks2()" type="button" value="<"/>
+					<input id="rechts2" onclick="brechts2()" type="button" value=">"/>
+					<input id="links3" onclick="blinks3()" type="button" value="<"/>
+				</div>
+				<div id="unterbuttons">
+					<input id="ganzrechts" onclick="ganzrechts()" type="button" value=">>"/>
+					<input id="ganzlinks" onclick="ganzlinks()" type="button" value="<<"/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
